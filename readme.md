@@ -19,7 +19,7 @@ Numpy：1.16.4.
 
 ##Datasets：
 Application website:  
-CASMEII：http://fu.psych.ac.cn/CASME/casme2.php  
+CASMEII:http://fu.psych.ac.cn/CASME/casme2.php  
 SAMM: http://www2.docm.mmu.ac.uk/STAFF/M.Yap/dataset.php  
 SMIC: http://www.cse.oulu.fi/SMICDatabase  
 
