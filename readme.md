@@ -1,6 +1,6 @@
 #Micro Expression Recognition for Graph-tcn：
 -------------------------------------------------------------------------------------------------------------------
-##Code contents：
+##Code contents:  
 1.__preprocessing__：Using the Learning-Based Video Motion Magnification [1] to magnify the micro-expression. The remaining preprocessing include commonly used alignment, cropping, resizing and extracting 7x7 patches of eyebrows and mouth facial landmarks.  
 2.__Graph-tcn.py and mymodel.py__ can be called for training.  
 3.__test-casme2-5class.py__ can reproduce the recognition result.(73.98% on casme2 of 5 class).  
