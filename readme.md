@@ -1,4 +1,4 @@
-#Micro Expression Recognition for Graph-tcn：
+#Graph-tcn for Micro-Expression Recognition：
 -------------------------------------------------------------------------------------------------------------------
 ##Code contents:  
 1.__preprocessing__：Using the Learning-Based Video Motion Magnification [1] to magnify the micro-expression. The remaining preprocessing include commonly used alignment, cropping, resizing and extracting 7x7 patches of eyebrows and mouth facial landmarks.  
