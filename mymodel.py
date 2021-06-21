@@ -18,7 +18,7 @@ class TCN(nn.Module):
         self.linear1 = nn.Linear(num_channels_p[-1]*1372, 512)
         self.linear2 = nn.Linear(512, output_size)
         self.relu3 = nn.ReLU()
-        self.relu4 = nn.ReLU()
+        #self.relu4 = nn.ReLU()
         self.dropout3 = nn.Dropout(dropout)
         self.dropout4 = nn.Dropout(dropout)
         self.bn1 = nn.BatchNorm1d(512)
@@ -60,6 +60,6 @@ class TCN(nn.Module):
         #o3 = self.relu4(o2)
         #print(o3.shape)
         o0 = self.relu3(self.dropout3(self.bn1(self.linear1(y1))))
-        o1 = self.relu4(self.dropout4(self.bn2(self.linear2(o0))))
+        o1 = self.dropout4(self.bn2(self.linear2(o0)))
         
         return F.log_softmax(o1, dim=1)
