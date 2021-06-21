@@ -2,9 +2,9 @@
 __A Novel Graph-TCN with a Graph Structured Representation for Micro-expression Recognition__[1]
 
 -------------------------------------------------------------------------------------------------------------------
-##Code contents:  
+## contents:  
 1.__preprocessing__：Using the Learning-Based Video Motion Magnification [2] to magnify the micro-expression. The remaining preprocessing include commonly used alignment, cropping, resizing and extracting 7x7 patches of eyebrows and mouth facial landmarks.  
-2.__Graph-tcn.py and mymodel.py__ can be called for training.  
+2.__mytcn.py and mymodel.py__ together form a complete network model.  
 3.__test-casme2-5class.py__ can reproduce the recognition result.(73.98% on casme2 of 5 class).  
 4.The __data__ folder are utilized in __stage of 3. :__  
 &#8195;In __data/mat__ folder, __feature-5000-gai.mat__  is the feature matrix.  
